@@ -12,4 +12,4 @@ To run unit tests: `./mvnw test`
 
 H2 console: http://localhost:8080/h2-console/ (when the application is running)
 
-API documentation/Swagger): http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config (when the application is running)  
+API documentation/Swagger: http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config (when the application is running)  
