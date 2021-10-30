@@ -6,10 +6,10 @@ To build project from the source directory: `./mvnw clean install` or `./mvnw pa
 
 To run the application: `./mvnw spring-boot:run`
 
-To run API tests: start the application and then `./mvnw -Dtest=apitest.WeatherApiTest test`
+To run API tests: `./mvnw -Dtest=apitest.WeatherApiTest test` (It requres the application to be running)
 
 To run unit tests: `./mvnw test`
 
-H2 console: http://localhost:8080/h2-console/
+H2 console: http://localhost:8080/h2-console/ (when the application is running)
 
-API documentation/Swagger): Sart the application and go to http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config  
+API documentation/Swagger): http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config (when the application is running)  
