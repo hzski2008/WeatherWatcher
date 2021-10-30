@@ -2,7 +2,7 @@
 
 This is a Sping Boot application which monitors weather forecasts for specific locations. The application 1) periodically fetches weather forecasts in the next 5 days for configured locations from the external weather service provider, 2) checks the fetched temperature against configured temperature thresholds and store the results and 3) returns the stored results via REST API. 
 
-The application can be configured with the below properties in file *application.properties* (in *src/main/resources* directory). 
+The application can be configured with the below properties in file *src/main/resources/application.properties*. 
 - **weather.locations**: location list
 - **weather.thresholds**: temperature limits.  
 - **weather.interval**: fetching interval,
