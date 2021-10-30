@@ -1,4 +1,4 @@
-package com.example.weather.consoller;
+package com.example.weather.controller;
 
 import com.example.weather.model.WeatherResponse;
 import org.springframework.beans.factory.annotation.Autowired;
