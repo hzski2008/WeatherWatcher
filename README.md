@@ -2,7 +2,13 @@
 
 This is a Sping Boot application which monitors weather forecasts for specific locations. The application 1) periodically fetches weather forecasts in the next 5 days for configured locations from the external weather service provider, 2) checks the fetched temperature against configured temperature thresholds and store the results and 3) returns the stored results via REST API. 
 
-The location list, temparature limits, fetching interval, weather service provider url and api key can be configured via file application.properties (in src/main/resources) 
+The application can be configured with the below properties in file *application.properties* (in *src/main/resources* directory). 
+- **weather.locations**: location list
+- **weather.thresholds**: temperature limits.  
+- **weather.interval**: fetching interval,
+- **weather.units**: temperature measurement units(Celsius/Fahrenheit/Kelvin) 
+- **weather.url**: the url of weather service provider 
+- **weather.apikey**: api key of weather service provider
 
 To build project from the source directory: `./mvnw clean install` or `./mvnw package`
 
