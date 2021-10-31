@@ -4,7 +4,7 @@ This is a Sping Boot application which monitors weather forecasts for specific l
 
 The application can be configured with the below properties in file *src/main/resources/application.properties*. 
 - **weather.locations**: location list
-- **weather.thresholds**: temperature limits (it could be improved to have separte upper limit and lower limit, so that application checks max-temperature against upper limit and min-temperature checks against lower limit)  
+- **weather.thresholds**: temperature limits (Currently we use only one limit per location. It could be improved to have separate upper limit and lower limit per location, so that application checks max-temperature against upper limit and min-temperature checks against lower limit)  
 - **weather.interval**: fetching interval
 - **weather.units**: temperature measurement units(Celsius/Fahrenheit/Kelvin) 
 - **weather.url**: the base url of weather service provider 
