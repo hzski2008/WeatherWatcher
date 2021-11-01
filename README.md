@@ -8,7 +8,7 @@ The application can be configured with the below properties in file *src/main/re
 - **weather.interval**: fetching interval
 - **weather.units**: temperature measurement units(Celsius/Fahrenheit/Kelvin) 
 - **weather.url**: the base url of weather service provider 
-- **weather.apikey**: api key of weather service provider
+- **weather.apikey**: api key of weather service provider (no default value is provided. You have to insert your own open_weather_map api key here)
 
 To build project from the source directory: `./mvnw clean install` or `./mvnw package`
 
